@@ -23,9 +23,9 @@ twitter_username: SouravB88868807
 # We will be there for you any time . You can email us at --> bhattacharyasourav37@gmail.com  
 
 # Build settings
- markdown: kramdown
+markdown: kramdown
 theme: minima
-plugins:
+gems:
   - jekyll-feed
 
 # Exclude from processing.
