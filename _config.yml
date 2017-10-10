@@ -1,41 +1,46 @@
-#স্বাগতম.....
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: ছন্দছাড়া
-email: your-bhattacharyasourav37@gmail.com
 description: একরাশ প্রতিযোগীতার ভিড়ে তোমার আলতো ছোঁয়ায় অবকাশের সঙ্গী আমার ছন্দছাড়া .......... সৌরভ ভট্টাচার্য্য 
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: https://www.facebook.com/psa1997/
-twitter_username: SouravB88868807
-# contact us : A 24/7 helpline service .
-# We will be there for you any time . You can email us at --> bhattacharyasourav37@gmail.com  
+#url: http://webjeda.com/
+permalink: ':title/'
 
-# Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
+#baseurl: "/karna"
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-- Gemfile
-   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+sass:
+    style: compressed
+
+twitter_username: SouravB88868807
+email: your-bhattacharyasourav37@gmail.com
+
+  
+#optimization
+#compress.html
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+
+highlight: rouge
+
+
+# Tracker
+analytics: UA-83979019-1
+
+# Comments
+disqus-shortname: webjeda-demo
+
+# Contact form
+# Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
+api-token:   
+
+include: [_pages]
+version: 0.8
+
+gems: [jekyll-paginate, jekyll-seo-tag]
