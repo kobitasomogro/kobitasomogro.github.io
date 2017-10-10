@@ -1,7 +1,7 @@
 
 title: ছন্দছাড়া
 description: একরাশ প্রতিযোগীতার ভিড়ে তোমার আলতো ছোঁয়ায় অবকাশের সঙ্গী আমার ছন্দছাড়া .......... সৌরভ ভট্টাচার্য্য 
-#url: http://webjeda.com/
+url: http://webjeda.com/
 permalink: ':title/'
 
 markdown: kramdown
@@ -10,9 +10,6 @@ markdown: kramdown
 
 sass:
     style: compressed
-
-twitter_username: SouravB88868807
-email: your-bhattacharyasourav37@gmail.com
 
   
 #optimization
@@ -31,10 +28,10 @@ highlight: rouge
 
 
 # Tracker
-analytics: UA-83979019-1
+#analytics: UA-83979019-1
 
 # Comments
-disqus-shortname: webjeda-demo
+#disqus-shortname: webjeda-demo
 
 # Contact form
 # Go to https://getsimpleform.com and get a API token by signing up with your email and enter that here
