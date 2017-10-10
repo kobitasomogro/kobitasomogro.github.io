@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+স্বাগতম.....
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -13,21 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: ছন্দছাড়া
+email: your-bhattacharyasourav37@gmail.com
+description: >-একরাশ প্রতিযোগীতার ভিড়ে তোমার আলতো ছোঁয়ায় অবকাশের সঙ্গী আমার ছন্দছাড়া .......... সৌরভ ভট্টাচার্য্য ।
+# baseurl: "" # the subpath of your site, e.g. /blog
+url: https://www.facebook.com/psa1997/
+twitter_username: Check out Sourav Bhattacharya (@SouravB88868807): https://twitter.com/SouravB88868807?s=09
+contact us : A 24/7 helpline service .
+We will be there for you any time . You can email us at --> bhattacharyasourav37@gmail.com  
 
 # Build settings
-markdown: kramdown
-theme: minima
-plugins:
+# markdown: kramdown
+# theme: minima
+# plugins:
   - jekyll-feed
 
 # Exclude from processing.
