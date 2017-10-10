@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: ছন্দছাড়া
 email: your-bhattacharyasourav37@gmail.com
-description: একরাশ প্রতিযোগীতার ভিড়ে তোমার আলতো ছোঁয়ায় অবকাশের সঙ্গী আমার ছন্দছাড়া .......... সৌরভ ভট্টাচার্য্য ।
+description: একরাশ প্রতিযোগীতার ভিড়ে তোমার আলতো ছোঁয়ায় অবকাশের সঙ্গী আমার ছন্দছাড়া .......... সৌরভ ভট্টাচার্য্য 
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: https://www.facebook.com/psa1997/
 twitter_username: SouravB88868807
@@ -23,17 +23,17 @@ twitter_username: SouravB88868807
 # We will be there for you any time . You can email us at --> bhattacharyasourav37@gmail.com  
 
 # Build settings
-# markdown: kramdown
-# theme: minima
-# plugins:
+ markdown: kramdown
+theme: minima
+plugins:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
+exclude:
+- Gemfile
+   - Gemfile.lock
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
